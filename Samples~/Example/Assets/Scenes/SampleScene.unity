@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 170076734}
-  m_IndirectSpecularColor: {r: 0.4465934, g: 0.49642956, b: 0.5748249, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.496413, b: 0.5748175, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -470,14 +470,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 636989499}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e70f8aabe63920c4abccf8d79dc6e066, type: 3}
+  m_Script: {fileID: 11500000, guid: c339252bdd8d1ba4ab70c785ef665a2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Port: 8554
   m_Username: user
   m_Password: password
-  m_Texture: {fileID: 8400000, guid: eecfe95401d12c54ca6d226d5a12286d, type: 2}
-  m_FrameRate: 30
+  m_SourceTexture: {fileID: 8400000, guid: eecfe95401d12c54ca6d226d5a12286d, type: 2}
+  m_Framerate: 30
 --- !u!4 &636989501
 Transform:
   m_ObjectHideFlags: 0
@@ -665,8 +665,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 120
@@ -744,8 +742,6 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-    m_TypeName: UnityEngine.UI.MaskableGraphic+CullStateChangedEvent, UnityEngine.UI,
-      Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
   m_Texture: {fileID: 8400000, guid: eecfe95401d12c54ca6d226d5a12286d, type: 2}
   m_UVRect:
     serializedVersion: 2
